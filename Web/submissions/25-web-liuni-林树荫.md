@@ -14,12 +14,12 @@
 * **解题思路:** F12 查看 HTML，Flag 隐藏在HTML代码中。 
 ![](1.png)
 ### 2. 隐藏入口 (secret.php)
-* **Flag:** `NSSCTF {0c659c79-c056-4932-870b-295b483de96d}` [cite_start]**解题思路:** 题目提供 `secret.php`，通过输入框进入后台，获取账号密码登录后获取 Flag。 
+* **Flag:** `NSSCTF {0c659c79-c056-4932-870b-295b483de96d}` **解题思路:** 题目提供 robots.php先通过输入框进入这个网站，从里面能够发现有个`secret.php`，进入网站，里面存储密码，，获取账号密码登录后获取 Flag。 
 * ![](2.png)
 * ![](3.png)
 * ![](4.png)
 ### 3. 青少年CTF - robots 协议
-* **Flag:** `flag{97fd01137dfe40088cfe1967be421d84}` * [cite_start]**解题思路:**     根据提示发起 GET 请求，在输入框中输入/?moe=flag,符合PHP代码判断条件，此时返回 Flag。 
+* **Flag:** `flag{97fd01137dfe40088cfe1967be421d84}` * **解题思路:**     根据提示，如果moe=flag的话，会返回flag，于是发起 GET 请求，在输入框中输入/?moe=flag,符合PHP代码判断条件，此时返回 Flag。 
 * ![](5.png)
 ---
 
