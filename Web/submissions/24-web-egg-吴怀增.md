@@ -8,7 +8,9 @@
 
 一般来说都是在脚本script这里
 
-![](C:\Users\ASUS\AppData\Roaming\marktext\images\2026-04-18-18-06-50-image.png)
+！[这是图片]("C:\Users\ASUS\Pictures\Screenshots\屏幕截图 2026-04-18 180253.png")
+
+
 
 <img src="file:///C:/Users/ASUS/AppData/Roaming/marktext/images/2026-04-18-18-07-52-image.png" title="" alt="" width="608">
 
